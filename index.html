@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="./styles/main.css" rel="stylesheet">
+    <title>Hlegal</title>
+</head>
+<body>
+<header class="header">
+    <div class="flex wrapper">
+        <svg width="130" height="60">
+            <use href="./sprite.svg#logo"/>
+        </svg>
+        <div>
+            <div class="flex first-row">
+                <div class=" flex flex-button">
+                    <button class="small-btn">УК</button>
+                    <button class="small-btn">РУ</button>
+                    <button class="small-btn active">EN</button>
+                </div>
+                <ul class="flex1">
+                    <li class="size">
+                        <svg width="6" height="7" class="small-svg">
+                            <use href="./sprite.svg#dots"/>
+                        </svg>
+                        <span>Kyiv, Mechnikova str, 14/1</span>
+                    </li>
+                    <li class="contacts-phone">
+                        <svg width="6" height="7" class="small-svg">
+                            <use href="./sprite.svg#dots"/>
+                        </svg>
+                        <a href="tel:0800211927">0800 211 927</a></li>
+                    <li>
+                        <svg width="6" height="7" class="small-svg">
+                            <use href="./sprite.svg#dots"/>
+                        </svg>
+                        <a href="https://www.facebook.com/">
+                            <svg width="24" height="25">
+                                <use href="./sprite.svg#facebook"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <nav class="flex1">
+                <a href="#tabs">about us</a>
+                <a href="./pages/services.html">services</a>
+                <a href="./pages/team.html">team</a>
+                <a href="#section3">publications</a>
+                <a href="#footer">contact</a>
+            </nav>
+        </div>
+        <div class="btn">
+            <input class="checkbox" type="checkbox" id="burger"/>
+
+            <label class="hamburger-lines" for="burger">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </label>
+
+            <div class="header-flex_mobile">
+                <label class="hamburger-lines open" for="burger">
+                    <span class="lines lines1"></span>
+                    <span class="lines lines2"></span>
+                    <span class="lines lines3"></span>
+                </label>
+                <div class="background">
+                    <a href="#tabs">about us</a>
+                    <a href="./pages/services.html">services</a>
+                    <a href="./pages/team.html">team</a>
+                    <a href="#section3">publications</a>
+                    <a href="#footer" class="active">contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="section-1">
+        <div class="sec1">
+            <div class="flex-icons">
+                <div class="img">
+                    <img src="./images/Symbol.svg" alt="symbol" width="697" height="799">
+                </div>
+                <div class="text">
+                    <h1 class="text-big">you legal solutions provider</h1>
+                </div>
+                <div class="scroll">
+                    <a href="#tabs">
+                        <svg width="42" height="42" fill="none">
+                            <use xlink:href="./sprite.svg#scroll"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="tabs">
+            <div class="tabs">
+                <ul>
+                    <li class="gradient"><a href="#tabs-1">Consistent</a></li>
+                    <li><a href="#tabs-2">Customer oriented</a></li>
+                    <li><a href="#tabs-3">Innovative</a></li>
+                    <li><a href="#tabs-4">Business oriented</a></li>
+                </ul>
+                <div id="tabs-1">
+                    <h2>We turn the idea of legal services</h2>
+                    <span>Consolidating many years of experience and practice, the company's lawyers accompany complex projects
+                    and achieve a number of important decisions for the industry. Many of them form the practice of
+                    applying
+                    the law of the sea in Ukraine.</span>
+                </div>
+                <div id="tabs-2">
+                    <h2>Lorem ipsum dolor sit amet!</h2>
+                    <span>Consolidating many years of experience and practice, the company's lawyers accompany complex projects
+                    and achieve a number of important decisions for the industry. Many of them form the practice of
+                    applying
+                    the law of the sea in Ukraine.</span>
+                </div>
+                <div id="tabs-3">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <span>Consolidating many years of experience and practice, the company's lawyers accompany complex projects
+                    and achieve a number of important decisions for the industry. Many of them form the practice of
+                    applying
+                    the law of the sea in Ukraine.</span>
+                </div>
+                <div id="tabs-4">
+                    <h2>We turn the idea of legal services</h2>
+                    <span>Consolidating many years of experience and practice, the company's lawyers accompany complex projects
+                    and achieve a number of important decisions for the industry. Many of them form the practice of
+                    applying
+                    the law of the sea in Ukraine.</span>
+                </div>
+            </div>
+            <div class="container">
+                <div class="flex-content">
+                    <a href="#">
+                        <h3 class="caps">Services</h3>
+                    </a>
+                    <svg width="12" height="13">
+                        <use href="./sprite.svg#arrow"/>
+                    </svg>
+                </div>
+                <h1 class="gradient-red-text">What can we do better than others?</h1>
+                <div class=" flex flex-box">
+                    <div class="box-1">
+                        <div class="sm-icon">
+                            <img src="./images/Ecommerce.svg" alt="Ecommerce" width="64" height="64">
+                        </div>
+                        <h3>IT and e-commerce</h3>
+                        <p>An endless stream of contracts, tax issues, labor relations, corporate papers - legal work
+                            distracts you from doing business. But there is not much work to do to hire an in-house
+                            lawyer.</p>
+                    </div>
+                    <div class="box-1">
+                        <div class="sm-icon">
+                            <img src="./images/Support.svg" alt="Support" width="64" height="64">
+                        </div>
+                        <h3>Comprehensive daily legal support</h3>
+                        <p>In addition, over time, the work will become the same type and uninteresting for a full-time
+                            lawyer. And we know very well how difficult it is to find a good candidate with experience
+                            in
+                            the field of information technology in Ukraine.</p>
+                    </div>
+                    <div class="box-1">
+                        <div class="sm-icon">
+                            <img src="./images/Coprorate.svg" alt="Coprorate" width="64" height="64">
+                        </div>
+                        <h3>Structuring corporate relationships</h3>
+                        <p>Instead of just providing legal services, we will hire a lawyer or a whole team that will fit
+                            into the daily life of your company.</p>
+                    </div>
+                    <div class="box-1">
+                        <div class="sm-icon">
+                            <img src="./images/Trust.svg" alt="Trust" width="64" height="64">
+                        </div>
+                        <h3>Building contractual relations</h3>
+                        <p>Once a week, or week after month, you have your own lawyer by your side. Anyone in the
+                            company
+                            can catch it at the coffee maker and just talk about current affairs instead of waiting for
+                            update status.</p>
+                    </div>
+                    <div class="box-1">
+                        <div class="sm-icon">
+                            <img src="./images/Protection.svg" alt="Protection" width="64" height="64">
+                        </div>
+                        <h3>Protection of business, intellectual property</h3>
+                        <p>And all the other time he will work on new diverse projects, so he will definitely not stop
+                            in
+                            professional development. One way or another, all Axon Partners will work for you instead of
+                            a
+                            corporate lawyer.</p>
+                    </div>
+                    <div class="box-1">
+                        <div class="sm-icon">
+                            <img src="./images/Court.svg" alt="Court" width="64" height="64">
+                        </div>
+                        <h3>Judicial representation</h3>
+                        <p>Is it a small, medium-sized company or a market leader? Local business or multinational
+                            company?
+                            Do you have your own legal department or not?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-2">
+        <div class="container">
+            <div class="slider">
+                <div class="slider__item">
+                    <div class="slider__flex">
+                        <img src="./images/image.jpg" alt="avatar" width="400" height="344">
+                        <div class="slider__item__right-block">
+                            <div class="flex-content">
+                                <h3 class="caps">команда</h3>
+                                <svg width="12" height="13" fill="none">
+                                    <use href="./sprite.svg#arrow"/>
+                                </svg>
+                            </div>
+                            <h1 class="gradient-red-text">
+                                Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну
+                                допомогу, навіть у ситуаціях, коли більшість безсилі.</h1>
+                            <h4>Олександр Олександровський</h4>
+                            <p class="small">Керуючий партнер</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__flex">
+                        <img src="./images/image.jpg" alt="avatar" width="400" height="344">
+                        <div class="slider__item__right-block">
+                            <div class="flex-content">
+                                <h3 class="caps">команда</h3>
+                                <svg width="12" height="13" fill="none">
+                                    <use href="./sprite.svg#arrow"/>
+                                </svg>
+                            </div>
+                            <h1 class="gradient-red-text">
+                                Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну
+                                допомогу, навіть у ситуаціях, коли більшість безсилі.</h1>
+                            <h4>Евгений Патриков</h4>
+                            <p class="small">Деловий партнер</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__flex">
+                        <img src="./images/image.jpg" alt="avatar" width="400" height="344">
+                        <div class="slider__item__right-block">
+                            <div class="flex-content">
+                                <h3 class="caps">команда</h3>
+                                <svg width="12" height="13" fill="none">
+                                    <use href="./sprite.svg#arrow"/>
+                                </svg>
+                            </div>
+                            <h1 class="gradient-red-text">
+                                Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну
+                                допомогу, навіть у ситуаціях, коли більшість безсилі.</h1>
+                            <h4>Евгений Патриков</h4>
+                            <p class="small">Деловий партнер</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-3" id="section3">
+        <h3 class="caps">They already trust us</h3>
+        <div class="sec3">
+            <div class="flex3 sec3-1">
+                <img src="./images/1.png" alt="1" width="217" height="48">
+            </div>
+            <div class="flex3 sec3-2">
+                <img src="./images/2.png" alt="2" width="199" height="32">
+            </div>
+            <div class="flex3 sec3-3">
+                <img src="./images/3.png" alt="3" width="179" height="44">
+            </div>
+            <div class="flex3 sec3-4">
+                <img src="./images/4.png" alt="4" width="180" height="42">
+            </div>
+            <div class="flex3 sec3-5">
+                <img src="./images/5.png" alt="5" width="174" height="44">
+            </div>
+            <div class="flex3 sec3-6">
+                <img src="./images/6.png" alt="6" width="187" height="48">
+            </div>
+            <div class="flex3 sec3-7">
+                <img src="./images/7.png" alt="7" width="138" height="61">
+            </div>
+            <div class="flex3 sec3-8">
+                <img src="./images/8.png" alt="8" width="146" height="76">
+            </div>
+            <div class="flex3 sec3-9">
+                <img src="./images/9.png" alt="9" width="182" height="60">
+            </div>
+            <div class="flex3 sec3-10">
+                <img src="./images/10.png" alt="10" width="181" height="38">
+            </div>
+            <div class="flex3 sec3-11">
+                <img src="./images/11.png" alt="11" width="189" height="46">
+            </div>
+            <div class="flex3 sec3-12">
+                <img src="./images/12.png" alt="12" width="152" height="95">
+            </div>
+        </div>
+    </section>
+    <section class="section-4">
+        <div class="container">
+            <div class="flex-content">
+                <h3 class="caps">Publications</h3>
+                <svg width="12" height="13">
+                    <use href="./sprite.svg#arrow"/>
+                </svg>
+            </div>
+            <h1 class="gradient-red-text">We have something to tell</h1>
+            <div class="sec-4">
+                <div class="flex-cards">
+                    <img src="./images/Cover.jpg" alt="Cover" width="420" height="200">
+                    <div class="flex-sec4">
+                        <h4>Equity associate</h4>
+                        <span>April 22</span>
+                        <div class="sec4-border"></div>
+                        <p class="small">I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before
+                            entering my
+                            parents
+                            told me that if I…</p>
+                    </div>
+                </div>
+                <div class="flex-cards">
+                    <img src="./images/Cover1.jpg" alt="Cover1" width="420" height="200">
+                    <div class="flex-sec4">
+                        <h4>Penalty for the Good Corporation: what will happen to Google and others for violating the
+                            GDPR</h4>
+                        <span>September 29</span>
+                        <div class="sec4-border"></div>
+                        <p class="small">And why the recovery of 50 million euros could be a fateful precedent According
+                            to Mind.ua January 21 National Commission for Data Protection.…</p>
+                    </div>
+                </div>
+                <div class="flex-cards grid">
+                    <img src="./images/Cover2.jpg" alt="Cover2" width="420" height="200">
+                    <div class="flex-sec4">
+                        <h4>Millennial Testament</h4>
+                        <span>August 19</span>
+                        <div class="sec4-border"></div>
+                        <p class="small">What and how modern vloggers, opinion leaders and crypto-millionaires will
+                            inherit A typical legacy of the Ukrainian generation X looks like this: an apartment in…</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer id="footer">
+    <div class="container">
+        <div class="footer-border">
+            <div class="footer">
+                <div class="footer-flex">
+                    <div class="flex2">
+                        <span class="size">Kyiv, Mechnikova str, 14/1</span>
+                        <svg width="6" height="6">
+                            <use href="./sprite.svg#dot"/>
+                        </svg>
+                        <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9C%D0%B5%D1%87%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0,+14%2F1,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.436795,30.532705,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4cf07295b8e39:0x17b2112e2dc0e7a!8m2!3d50.436795!4d30.532705!16s%2Fg%2F11c5mrd800?entry=ttu"
+                           class="footer-map">On map</a>
+                    </div>
+                    <div class="flex2">
+                        <a href="https://www.facebook.com/">
+                            <svg width="38" height="38" class="footer-facebook">
+                                <use href="./sprite.svg#footer"/>
+                            </svg>
+                        </a>
+                        <svg width="6" height="6">
+                            <use href="./sprite.svg#dot"/>
+                        </svg>
+                        <a href="tel:0800211927" class="footer-tel">0800 211 927</a>
+                        <svg width="6" height="6">
+                            <use href="./sprite.svg#dot"/>
+                        </svg>
+                        <a href="contact@forstudy.space" class="footer-cont">contact@forstudy.space</a>
+                    </div>
+                </div>
+                <div class="flex flex-company">
+                    <p>© 2021 HLEGAL Law company, LLC</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        // place for initialize scripts
+
+        $(".tabs").tabs();
+
+        $('.slider').slick({
+            dots: true,
+            arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            mobileFirst: true
+        })
+    });
+</script>
+</body>
+</html>
